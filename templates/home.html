@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="jumbotron" style="background-color: #f9f9f9; color: #333333;">
+    <div class="row align-items-center">
+        <!-- Picture frame on the left -->
+        <div class="col-md-4 text-center" style="padding: 20px;">
+            <img src="/static/mypic.jpeg" alt="My Image" class="img-fluid img-thumbnail">
+        </div>
+        <!-- Content on the right -->
+        <div class="col-md-8">
+           <h1>👋 Hi, I'm Zhu Jiang (Jason)</h1>
+            <p>
+            I am a Software Engineer passionate about Geospatial Machine Learning (GeoML). I have strong experience in Python, Data Engineering, and GIS development, 
+            and I continuously work on enhancing my skills.
+            </p>
+            <p>
+            I believe technology is not just a tool—it’s a bridge connecting real-world geospatial data with intelligent systems.
+            </p>
+            <hr class="my-4">
+            <a class="btn btn-dark btn-lg mr-2" href="/about" role="button">Learn more about me</a>
+            <a class="btn btn-dark btn-lg mr-2" href="/projects" role="button">My Projects</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
